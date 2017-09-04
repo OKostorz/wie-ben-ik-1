@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Abel', sans-serif;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;  
+}
+
+header {
+    margin: 0 0 20px
+}
+
+header ul {
+    list-style: none; 
+    text-align: right;
+}
+
+header li {
+    display: inline-block;
+}
+
+#menu {
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: -12px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: lowercase;
+    
+    padding: 0 10px 3px;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid grey;
+    color: grey;
+}
+
+#logo h1 {
+  	display: block;
+	letter-spacing: -3px;
+	text-transform: lowercase;
+	font-size: 3em;
+    
+    position: relative;
+    top: 13px;
+}
+
+#logo p {
+    display: inline-block;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+#image {
+    background: url(img/BG1.jpg);
+    background-size: cover;
+    height: 150px;
+    margin: 0 0 20px;
+    
+}
+
+#text {
+    
+}
+
+
+/*
+body {
+	background-color: snow;
+	font-family: sans-serif;
+}
+
+#kq {
+	width: 100px;
+}
+
+#aboutme {
+	width: 300px;
+}
+
+#doelen {
+	display: inline-block;
+	
+}
+
+#doe {
+
+}
+
+#one {
+  display: inline-block;
+  width: 32%;
+  position: relative;
+  top: -29px;
+}
+
+#two {
+  display: inline-block;
+  width: 32%;
+  position: relative;
+  top: -135px;
+}
+
+#three {
+  display: inline-block;
+  width: 32%;
+  position: relative;
+  top: -192px;
+}
+
+h3 {
+	color: firebrick;
+	font-family: "Verdana"
+}
+*/
