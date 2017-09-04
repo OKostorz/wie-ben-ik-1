@@ -5,7 +5,7 @@
 }
 
 body {
-    width: 600px;
+    width: 700px;
     margin: 0 auto;  
 }
 
@@ -63,62 +63,42 @@ header li {
 #image {
     background: url(img/BG1.jpg);
     background-size: cover;
-    height: 150px;
+    height: 170px;
     margin: 0 0 20px;
-    
 }
 
 #text {
-    
+    display: flex;
 }
 
-
-/*
-body {
-	background-color: snow;
-	font-family: sans-serif;
+#text ul {
+    list-style: none;
 }
 
-#kq {
-	width: 100px;
-}
-
-#aboutme {
-	width: 300px;
-}
-
-#doelen {
-	display: inline-block;
-	
-}
-
-#doe {
-
-}
-
-#one {
-  display: inline-block;
-  width: 32%;
-  position: relative;
-  top: -29px;
+#one  {
+    display: inline-block;
+    width: 25%;
+    flex-grow: 1;
 }
 
 #two {
-  display: inline-block;
-  width: 32%;
-  position: relative;
-  top: -135px;
+    display: inline-block;
+    width: 40%;
+    flex-grow: 2;
 }
 
 #three {
-  display: inline-block;
-  width: 32%;
-  position: relative;
-  top: -192px;
+    display: inline-block;
+    width: 25%;
+    flex-grow: 1;
 }
 
-h3 {
-	color: firebrick;
-	font-family: "Verdana"
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 60%;
+    
+   
+    
+    
 }
-*/
