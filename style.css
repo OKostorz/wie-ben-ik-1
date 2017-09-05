@@ -24,6 +24,7 @@ header li {
 
 #menu {
     display: inline-block;
+    
     float: right;
     position: relative;
     top: -12px;
@@ -32,32 +33,39 @@ header li {
 #menu a {
     text-decoration: none;
     color: black;
-    font-weight: 600;
-    text-transform: lowercase;
+    
+    font-size: 13px;
+    font-weight:600;
+    text-transform: uppercase;
     
     padding: 0 10px 3px;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid grey;
+    border-bottom: 2px solid grey;
     color: grey;
 }
 
 #logo h1 {
   	display: block;
+    
 	letter-spacing: -3px;
 	text-transform: lowercase;
 	font-size: 3em;
     
     position: relative;
     top: 13px;
+    padding: 0 15px;
 }
 
 #logo p {
     display: inline-block;
+    
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	font-size: 10px;
+    
+    padding: 0 15px;
 }
 
 #image {
@@ -65,6 +73,12 @@ header li {
     background-size: cover;
     height: 170px;
     margin: 0 0 20px;
+}
+
+#person img {
+    width: 20%;
+    position: relative;
+    top: -214px;
 }
 
 #text {
@@ -96,9 +110,5 @@ header li {
 footer {
     position: fixed;
     bottom: 0;
-    width: 60%;
-    
-   
-    
-    
+    width: 60%; 
 }
